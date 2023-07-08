@@ -12,7 +12,7 @@ struct VGridView: View {
         // 垂直方向的网格视图时:
         //columns参数的gridItem配置列宽(网格的宽度),列间距,里面的内容对齐方式等;
         //lazyVGrid其余参数配置行间距,网格对齐方式,页眉页脚是否固定等
-        let columns = Array(repeating: GridItem(.fixed(100), spacing: 20), count: 3)
+//        let columns = Array(repeating: GridItem(.fixed(100), spacing: 20), count: 3)
         
         // MARK: - 简单的GridView
         //        ScrollView {

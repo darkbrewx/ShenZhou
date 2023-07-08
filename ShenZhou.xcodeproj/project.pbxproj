@@ -14,6 +14,17 @@
 		C14B1A002A56817E00B15660 /* VGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14B19FF2A56817E00B15660 /* VGridView.swift */; };
 		C14B1A022A57335200B15660 /* HGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14B1A012A57335200B15660 /* HGridView.swift */; };
 		C14B1A042A5738DE00B15660 /* GeometryReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14B1A032A5738DE00B15660 /* GeometryReaderView.swift */; };
+		C14B1A072A57416200B15660 /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = C14B1A052A57416200B15660 /* astronauts.json */; };
+		C14B1A082A57416200B15660 /* plans.json in Resources */ = {isa = PBXBuildFile; fileRef = C14B1A062A57416200B15660 /* plans.json */; };
+		C14B1A0C2A57ADDB00B15660 /* PlanModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14B1A0B2A57ADDB00B15660 /* PlanModel.swift */; };
+		C14B1A0F2A57AFAC00B15660 /* PlanVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14B1A0E2A57AFAC00B15660 /* PlanVM.swift */; };
+		C14B1A122A57C8FF00B15660 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14B1A112A57C8FF00B15660 /* Constant.swift */; };
+		C14B1A142A57E7C400B15660 /* PlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14B1A132A57E7C400B15660 /* PlanView.swift */; };
+		C14B1A172A58038700B15660 /* AstronautModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14B1A162A58038700B15660 /* AstronautModel.swift */; };
+		C14B1A192A58041900B15660 /* AstronautVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14B1A182A58041900B15660 /* AstronautVM.swift */; };
+		C14B1A1B2A5862DE00B15660 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14B1A1A2A5862DE00B15660 /* Bundle-Decodable.swift */; };
+		C14B1A1F2A58664A00B15660 /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14B1A1E2A58664900B15660 /* AstronautView.swift */; };
+		C14B1A212A58895100B15660 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14B1A202A58895100B15660 /* Modifiers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +36,17 @@
 		C14B19FF2A56817E00B15660 /* VGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VGridView.swift; sourceTree = "<group>"; };
 		C14B1A012A57335200B15660 /* HGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HGridView.swift; sourceTree = "<group>"; };
 		C14B1A032A5738DE00B15660 /* GeometryReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderView.swift; sourceTree = "<group>"; };
+		C14B1A052A57416200B15660 /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
+		C14B1A062A57416200B15660 /* plans.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = plans.json; sourceTree = "<group>"; };
+		C14B1A0B2A57ADDB00B15660 /* PlanModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanModel.swift; sourceTree = "<group>"; };
+		C14B1A0E2A57AFAC00B15660 /* PlanVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanVM.swift; sourceTree = "<group>"; };
+		C14B1A112A57C8FF00B15660 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		C14B1A132A57E7C400B15660 /* PlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanView.swift; sourceTree = "<group>"; };
+		C14B1A162A58038700B15660 /* AstronautModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautModel.swift; sourceTree = "<group>"; };
+		C14B1A182A58041900B15660 /* AstronautVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautVM.swift; sourceTree = "<group>"; };
+		C14B1A1A2A5862DE00B15660 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		C14B1A1E2A58664900B15660 /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
+		C14B1A202A58895100B15660 /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,12 +80,14 @@
 			isa = PBXGroup;
 			children = (
 				C14B19F12A56815700B15660 /* ShenZhouApp.swift */,
-				C14B19F32A56815700B15660 /* ContentView.swift */,
-				C14B19FF2A56817E00B15660 /* VGridView.swift */,
-				C14B1A012A57335200B15660 /* HGridView.swift */,
-				C14B1A032A5738DE00B15660 /* GeometryReaderView.swift */,
+				C14B1A0D2A57ADE100B15660 /* Model */,
+				C14B1A102A57AFB100B15660 /* ViewModel */,
+				C14B1A1D2A58660F00B15660 /* View */,
+				C14B1A1C2A5862EB00B15660 /* Common */,
+				C14B1A0A2A57417800B15660 /* Resources */,
 				C14B19F52A56815900B15660 /* Assets.xcassets */,
 				C14B19F72A56815900B15660 /* Preview Content */,
+				C14B1A152A57E7D900B15660 /* Prepare */,
 			);
 			path = ShenZhou;
 			sourceTree = "<group>";
@@ -74,6 +98,63 @@
 				C14B19F82A56815900B15660 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C14B1A0A2A57417800B15660 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C14B1A052A57416200B15660 /* astronauts.json */,
+				C14B1A062A57416200B15660 /* plans.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C14B1A0D2A57ADE100B15660 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C14B1A0B2A57ADDB00B15660 /* PlanModel.swift */,
+				C14B1A162A58038700B15660 /* AstronautModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C14B1A102A57AFB100B15660 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C14B1A0E2A57AFAC00B15660 /* PlanVM.swift */,
+				C14B1A182A58041900B15660 /* AstronautVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C14B1A152A57E7D900B15660 /* Prepare */ = {
+			isa = PBXGroup;
+			children = (
+				C14B19FF2A56817E00B15660 /* VGridView.swift */,
+				C14B1A012A57335200B15660 /* HGridView.swift */,
+				C14B1A032A5738DE00B15660 /* GeometryReaderView.swift */,
+			);
+			path = Prepare;
+			sourceTree = "<group>";
+		};
+		C14B1A1C2A5862EB00B15660 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C14B1A112A57C8FF00B15660 /* Constant.swift */,
+				C14B1A1A2A5862DE00B15660 /* Bundle-Decodable.swift */,
+				C14B1A202A58895100B15660 /* Modifiers.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C14B1A1D2A58660F00B15660 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C14B19F32A56815700B15660 /* ContentView.swift */,
+				C14B1A132A57E7C400B15660 /* PlanView.swift */,
+				C14B1A1E2A58664900B15660 /* AstronautView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +215,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C14B1A082A57416200B15660 /* plans.json in Resources */,
+				C14B1A072A57416200B15660 /* astronauts.json in Resources */,
 				C14B19F92A56815900B15660 /* Preview Assets.xcassets in Resources */,
 				C14B19F62A56815900B15660 /* Assets.xcassets in Resources */,
 			);
@@ -147,10 +230,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				C14B19F42A56815700B15660 /* ContentView.swift in Sources */,
+				C14B1A192A58041900B15660 /* AstronautVM.swift in Sources */,
+				C14B1A212A58895100B15660 /* Modifiers.swift in Sources */,
+				C14B1A142A57E7C400B15660 /* PlanView.swift in Sources */,
 				C14B1A002A56817E00B15660 /* VGridView.swift in Sources */,
+				C14B1A0F2A57AFAC00B15660 /* PlanVM.swift in Sources */,
+				C14B1A122A57C8FF00B15660 /* Constant.swift in Sources */,
+				C14B1A0C2A57ADDB00B15660 /* PlanModel.swift in Sources */,
 				C14B19F22A56815700B15660 /* ShenZhouApp.swift in Sources */,
+				C14B1A172A58038700B15660 /* AstronautModel.swift in Sources */,
+				C14B1A1F2A58664A00B15660 /* AstronautView.swift in Sources */,
 				C14B1A042A5738DE00B15660 /* GeometryReaderView.swift in Sources */,
 				C14B1A022A57335200B15660 /* HGridView.swift in Sources */,
+				C14B1A1B2A5862DE00B15660 /* Bundle-Decodable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
